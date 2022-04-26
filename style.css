@@ -1,0 +1,42 @@
+body {
+    background-color:rgb(48, 49, 65);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    
+}
+
+form {
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+    padding-left: 30px;
+    background-color: rgb(255, 255, 255);
+    display: inline;
+}
+
+.Black {
+    color: black;
+}
+
+.Green {
+    color: green;
+}
+
+
+p{
+    width: 100%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+
+input{
+    height: 25px;
+    margin-right: 10px;
+}

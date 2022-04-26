@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <p>Votre mot de passe doit contenir : </p>
+            <p id="Longueur" class="Black">8 charactères au minimum</p>
+            <p id="Maj" class="Black">Au moins une majuscule</p> 
+            <p id="Chiffre" class="Black">Au moins un chiffre</p> 
+            <p id="Special" class="Black">Au moins un charactère spécial</p>
+
+            <input type="password" id="mdp" minlength="8" placeholder="Entrez le mdp" autofocus>
+            <input type="submit">
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
